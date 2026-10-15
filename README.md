@@ -19,3 +19,11 @@ Open `index.html` in a modern browser, or host the folder with any static web se
 ## Original project
 
 `Secrete word game.Nhlanhla.py` is retained as the original Python console exercise that inspired this browser remake.
+
+## Quality and deployment
+
+[![Validate and deploy site](https://github.com/Fakude/Word-game/actions/workflows/pages.yml/badge.svg)](https://github.com/Fakude/Word-game/actions/workflows/pages.yml)
+
+The GitHub Actions workflow checks browser JavaScript on pushes and pull requests, then deploys successful `main` branch changes to GitHub Pages.
+
+Key files: `index.html` (structure), `style.css` (responsive UI), `game.js` (game logic), and `.github/workflows/pages.yml` (CI/CD).
